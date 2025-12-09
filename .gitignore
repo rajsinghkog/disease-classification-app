@@ -1,0 +1,7 @@
+.DS_Store
+.venv/
+__pycache__/
+FNNPK/
+random_images/
+*.ipynb
+uv.lock

@@ -111,7 +111,7 @@ def main():
             st.subheader("Prediction Results")
             
             # Highlight result
-            if prediction_class == "Not_found":
+            if prediction_class == "Healthy":
                 st.warning(f"**Prediction:** {prediction_class}")
                 st.info("This does not appear to be a spinach leaf.")
             else:

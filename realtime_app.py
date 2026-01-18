@@ -43,7 +43,7 @@ try:
     with open("classes.json", "r") as f:
         CLASSES = json.load(f)
 except FileNotFoundError:
-    CLASSES = ['-K', '-N', '-P', 'FN'] 
+    CLASSES = ['-K', '-N', '-P', 'Full Nutrition(FN)', 'Not_Found'] 
     print("Warning: classes.json not found, using fallback.")
 
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")

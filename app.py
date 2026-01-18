@@ -113,7 +113,7 @@ def main():
             # Highlight result
             if prediction_class == "Not_Found":
                 st.warning(f"**Prediction:** {prediction_class}")
-                st.info("This does not appear to be a  leaf.")
+               // st.info("This does not appear to be a  leaf.")
             else:
                 st.success(f"**Prediction:** {prediction_class}")
             
